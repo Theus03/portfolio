@@ -3,6 +3,7 @@ import {
     Routes,
     Route
 } from "react-router-dom";
+import { Home } from "./pages/Home";    
 import { Contact } from "./pages/Contact";
 import { Projects } from "./pages/Projects";
 import { Resume } from "./pages/Resume";
@@ -13,6 +14,7 @@ export function AppRoutes() {
     return (
         <Router>
             <Routes>
+                <Route path="/" element={<Home/>}></Route>
                 <Route path="/skills" element={<Skills/> }></Route>
                 <Route path="/skills/editors" element={<Editors/>}></Route>
                 <Route path="/projects" element={<Projects/> }></Route>

@@ -104,3 +104,59 @@
         display: none;
     }
 }
+
+#home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    width: 100%;
+    
+    .container{
+        border-radius: 1rem;
+        background-color: var(--white-primary);
+        display: flex;
+        width: 40%;
+        
+        .carrerExperience {
+            padding: 2rem;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            img {
+                margin-top: 0.5rem;
+                width: 10rem;
+            }
+        }
+        .yearsExperience{
+            border-top-left-radius: 1rem;
+            border-top-right-radius: 1rem;
+            flex-direction: column;
+            background-color: var(--black-secondary);
+            padding: 2rem;
+            width: 50%;
+
+            .experienceNumber {
+                font: bold 4rem Roboto, 'sans-serif';
+                color: var(--white);
+                text-transform: uppercase;
+            }
+
+            .experienceText {
+                font: bold 2rem Roboto, 'sans-serif';
+                color: var(--white);
+            }
+
+        }
+    }
+
+    .title-home {
+        font: bold 2rem Roboto, 'sans-serif';
+        color: var(--black-secondary);
+        text-transform: uppercase;
+    }
+
+}
