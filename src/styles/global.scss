@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 6rem;
+
+    .title {
+        font: bold 3rem DM Sans, 'sans-serif';
+        text-transform: uppercase;
+        letter-spacing: 10px;
+    }
+
+    .subTitle {
+        font: 400 1.5rem DM Sans, 'sans-serif';
+        color: var(--black-secondary);
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    nav {
+        padding: 0.5rem;
+        
+        ul, li, a{
+            display: flex;
+            padding: 0.5rem;
+            margin-left: 1.3rem;
+            margin-right: 1.3rem;
+            font: 400 1.3rem Roboto, 'sans-serif';
+            color: var(--black-secondary);
+            opacity: 70%;
+            text-transform: uppercase;
+            text-decoration: none;
+            transition: all 0.4s;
+
+            a:hover {
+                opacity: 100;
+            }
+        }
+    }
+}
+
+#skills {
+    display: flex;
+    justify-content: center;
+
+    .container {
+        background: var(--white-primary);
+        padding: 3rem;
+        width: 45%;
+        position: fixed;
+        bottom: 0;
+        height: 50vh;
+        border-radius: 8px;
+    }
+
+    .header-skills {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .choose-skills {
+            display: flex;
+            margin: 0.5rem;
+        }
+
+        .title-skills {
+            font: bold 2rem Roboto, 'sans-serif';
+            color: var(--black-secondary);
+            text-transform: uppercase;
+        }
+        .text-skills, .link-skills {
+            font: normal 1rem Roboto, 'sans-serif';
+            color: var(--black-secondary);
+            text-transform: uppercase;
+            opacity: 70%;
+            margin-left: 2rem;
+            cursor: pointer;
+            transition: all 0.4s;
+            text-decoration: none;
+           
+            :hover {
+                opacity: 0.5rem;
+            }
+        }
+        .text-skills:hover{
+            opacity: 100;
+        }
+    }
+    .body-skills{
+        text-align: center;
+
+        .col-one img, .col-two img{
+            margin: 1.8rem;
+            width: 3.5rem;
+        }
+    }
+    .body-skills.hidden {
+        display: none;
+    }
+}
