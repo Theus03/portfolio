@@ -1,5 +1,3 @@
-import Img from 'react-image';
-
 import html from '../assets/html-5.png';
 import css from '../assets/css-3.png';
 import js from '../assets/js.png';
@@ -10,14 +8,6 @@ import python from "../assets/python.png";
 import mysql from "../assets/mysql.png";
 import sql from "../assets/sql-server.png";
 import node from "../assets/node-js.png";
-
-import vsCode from '../assets/vsCode.png';
-import visualStudio from '../assets/visual-basic.png';
-import androidStudio from '../assets/androidStudio.png';
-import Pycharm from '../assets/pycharm.png';
-import SublimeText from '../assets/sublime.png';
-import Eclipse from "../assets/eclipse.png";
-import Netbeans from "../assets/netbeans.png";
 
 export function Skills() {
     return (
@@ -40,7 +30,7 @@ export function Skills() {
                         <div className="choose-skills">
                             <a href="/skills" className="text-skills">Languages</a>
                             <a href="/skills/editors" className="text-skills">Editors</a>
-                            <p className="text-skills">Design</p>
+                            <a href="/skills/design" className="text-skills">Design</a>
                         </div>
                     </div>
                     <div className="body-skills" id="body-skills">

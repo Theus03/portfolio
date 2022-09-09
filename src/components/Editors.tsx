@@ -1,5 +1,3 @@
-import Img from 'react-image';
-
 import vsCode from '../assets/vsCode.png';
 import visualStudio from '../assets/visual-basic.png';
 import androidStudio from '../assets/androidStudio.png';
@@ -18,7 +16,7 @@ export function Editors() {
                     <div className="choose-skills">
                         <a href="/skills" className="text-skills">Languages</a>
                         <a href="/skills/editors" className="text-skills">Editors</a>
-                        <p className="text-skills">Design</p>
+                        <a href='/skills/design' className="text-skills">Design</a>
                     </div>
                 </div>
                 <div className="body-skills" id="body-skills">

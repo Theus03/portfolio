@@ -110,11 +110,13 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    bottom: 0;
     width: 100%;
     
     .container{
         border-radius: 1rem;
+        bottom: 0;
+        position: absolute;
+        height: 40%;
         background-color: var(--white-primary);
         display: flex;
         width: 40%;
@@ -130,6 +132,7 @@
                 margin-top: 0.5rem;
                 width: 10rem;
             }
+
         }
         .yearsExperience{
             border-top-left-radius: 1rem;
@@ -149,7 +152,6 @@
                 font: bold 2rem Roboto, 'sans-serif';
                 color: var(--white);
             }
-
         }
     }
 
