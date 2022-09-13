@@ -28,7 +28,7 @@ export function Skills() {
                     <div className="header-skills">
                         <h1 className="title-skills">My Skills</h1>
                         <div className="choose-skills">
-                            <a href="/skills" className="text-skills">Languages</a>
+                            <a href="/skills" className="text-skills loc">Languages</a>
                             <a href="/skills/editors" className="text-skills">Editors</a>
                             <a href="/skills/design" className="text-skills">Design</a>
                         </div>

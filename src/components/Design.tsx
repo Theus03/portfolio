@@ -1,10 +1,10 @@
-import Figma from '../assets/vsCode.png';
-import AdobeXD from '../assets/visual-basic.png';
-import Canva from '../assets/androidStudio.png';
-import FlatIcon from '../assets/pycharm.png';
-import Lr from '../assets/sublime.png';
-import AfterEffects from "../assets/eclipse.png";
-import Photoshop from "../assets/netbeans.png";
+import Figma from '../assets/figma.png';
+import AdobeXD from '../assets/adobeXD.png';
+import Canva from '../assets/canva.png';
+import FlatIcon from '../assets/flaticon.png';
+import Lr from '../assets/lr.png';
+import AfterEffects from "../assets/aftereffects.png";
+import Photoshop from "../assets/photoshop.png";
 
 
 export function Design() {
