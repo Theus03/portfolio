@@ -45,7 +45,7 @@
     }
 }
 
-#skills {
+#skills, #projects {
     display: flex;
     justify-content: center;
 
@@ -58,13 +58,13 @@
         height: 50vh;
         border-radius: 8px;
     }
+        
+        .header-skills, .header-projects {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
 
-    .header-skills {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-
-        .choose-skills {
+        .choose-skills, .choose-projects {
             display: flex;
             margin: 0.5rem;
         }
@@ -97,12 +97,19 @@
             opacity: 100;
         }
     }
-    .body-skills{
+    .body-skills, .body-projects{
         text-align: center;
 
         .col-one img, .col-two img{
             margin: 1.8rem;
             width: 3.5rem;
+        }
+
+        .FrontEnd{
+            .col-one img, .col-two img{
+                margin: 5rem;
+                width: 5rem;
+            }
         }
     }
     .body-skills.hidden {
