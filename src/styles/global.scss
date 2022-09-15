@@ -69,7 +69,7 @@
             margin: 0.5rem;
         }
 
-        .title-skills {
+        .title-skills, .title-projects {
             font: bold 2rem Roboto, 'sans-serif';
             color: var(--black-secondary);
             opacity: 70%;
@@ -103,12 +103,31 @@
         .col-one img, .col-two img{
             margin: 1.8rem;
             width: 3.5rem;
+       
         }
-
+        
         .FrontEnd{
-            .col-one img, .col-two img{
-                margin: 5rem;
-                width: 5rem;
+            display: flex;
+            justify-content: center;
+            
+            .col-one, .col-two, .col-three{
+                display: flex;
+                flex-direction: column;
+                
+                .text-projects {
+                    font: bold 1.3rem Roboto, 'sans-serif';
+                }
+                .link-projects {
+                    margin-top: 0.5rem;
+                    font:  normal 1rem Roboto, 'sans-serif';
+                }
+            }
+
+
+            .col-one img, .col-two img, .col-three img{
+                width: 15rem;
+                margin: 1rem;
+                margin-top: 4rem;
             }
         }
     }

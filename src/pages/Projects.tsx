@@ -9,30 +9,30 @@ export function Projects() {
                 <div className="header-projects">
                         <h1 className="title-projects">Projects</h1>
                         <div className="choose-projects">
-                            <p className="text-projects">Front-End</p>
-                            <p className="text-projects">UI Design</p>
+                            <p className="textChoose-projects">Front-End</p>
+                            <p className="textChoose-projects">UI Design</p>
                         </div>
                     </div>
-                </div> 
                 <div className="body-projects" id="body-projects">
                     <div className="FrontEnd">
                         <div className="col-one">
                             <img src={myBooks} alt="MyBooks - Project" />
-                            <b>MyBooks</b>
-                            <a href="https://theus03.github.io/my-books/">https://theus03.github.io/my-books/</a>
+                            <b className='text-projects'>MyBooks</b>
+                            <a href="https://theus03.github.io/my-books/" className='link-projects'>https://theus03.github.io/my-books/</a>
                         </div>
                         <div className="col-two">
                             <img src={ultraflix} alt="UltraFlix - Project" />
-                            <b>UltraFlix</b>
-                            <a href="https://theus03.github.io/ultraflix/">https://theus03.github.io/ultraflix/</a>
+                            <b className='text-projects'>UltraFlix</b>
+                            <a href="https://theus03.github.io/ultraflix/" className='link-projects'>https://theus03.github.io/ultraflix/</a>
                         </div>
                         <div className="col-three">
                             <img src={myHouse} alt="MyHouse - Project" />
-                            <b>MyHouse</b>
-                            <a href=""></a>
+                            <b className='text-projects'>MyHouse</b>
+                            <a href="https://theus03.github.io/myHouse/"  className='link-projects'>https://theus03.github.io/myHouse/</a>
                         </div>
                     </div>
                 </div>
+            </div>
         </div>
     )
 }
