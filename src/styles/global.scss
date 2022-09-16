@@ -67,6 +67,14 @@
         .choose-skills, .choose-projects {
             display: flex;
             margin: 0.5rem;
+
+            .textChoose-projects {
+                margin-right: 5rem;
+                font: 200 1.5rem Roboto, 'sans-serif';
+                color: #323232;
+                text-transform: uppercase;
+                text-decoration: none;
+            }
         }
 
         .title-skills, .title-projects {

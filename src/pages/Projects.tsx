@@ -9,8 +9,8 @@ export function Projects() {
                 <div className="header-projects">
                         <h1 className="title-projects">Projects</h1>
                         <div className="choose-projects">
-                            <p className="textChoose-projects">Front-End</p>
-                            <p className="textChoose-projects">UI Design</p>
+                            <a className="textChoose-projects" href=''>Front-End</a>
+                            <a className="textChoose-projects" href=''>UI Design</a>
                         </div>
                     </div>
                 <div className="body-projects" id="body-projects">
