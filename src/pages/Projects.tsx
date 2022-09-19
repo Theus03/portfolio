@@ -10,7 +10,7 @@ export function Projects() {
                         <h1 className="title-projects">Projects</h1>
                         <div className="choose-projects">
                             <a className="textChoose-projects" href=''>Front-End</a>
-                            <a className="textChoose-projects" href=''>UI Design</a>
+                            <a className="textChoose-projects" href='/projects/uidesign'>UI Design</a>
                         </div>
                     </div>
                 <div className="body-projects" id="body-projects">

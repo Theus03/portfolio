@@ -10,6 +10,7 @@ import { Resume } from "./pages/Resume";
 import { Skills } from "./pages/Skills";
 import { Editors } from './components/Editors';
 import { Design } from './components/Design';
+import { UiDesign } from "./components/UiDesign";
 
 export function AppRoutes() {
     return (
@@ -20,6 +21,7 @@ export function AppRoutes() {
                 <Route path="/skills/editors" element={<Editors/>}></Route>
                 <Route path="/skills/design" element={<Design/>}></Route>
                 <Route path="/projects" element={<Projects/> }></Route>
+                <Route path="/projects/uidesign" element={<UiDesign/>}></Route>
                 <Route path="/resume" element={<Resume/> }></Route>
                 <Route path="/contact" element={<Contact/>}></Route>
             </Routes>
