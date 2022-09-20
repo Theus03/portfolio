@@ -9,7 +9,7 @@ export function Projects() {
                 <div className="header-projects">
                         <h1 className="title-projects">Projects</h1>
                         <div className="choose-projects">
-                            <a className="textChoose-projects" href=''>Front-End</a>
+                            <a className="textChoose-projects" href='/projects'>Front-End</a>
                             <a className="textChoose-projects" href='/projects/uidesign'>UI Design</a>
                         </div>
                     </div>
@@ -18,17 +18,17 @@ export function Projects() {
                         <div className="col-one">
                             <img src={myBooks} alt="MyBooks - Project" />
                             <b className='text-projects'>MyBooks</b>
-                            <a href="https://theus03.github.io/my-books/" className='link-projects'>https://theus03.github.io/my-books/</a>
+                            <a href="https://theus03.github.io/my-books/" className='link-projects' target="_blank">https://theus03.github.io/my-books/</a>
                         </div>
                         <div className="col-two">
                             <img src={ultraflix} alt="UltraFlix - Project" />
                             <b className='text-projects'>UltraFlix</b>
-                            <a href="https://theus03.github.io/ultraflix/" className='link-projects'>https://theus03.github.io/ultraflix/</a>
+                            <a href="https://theus03.github.io/ultraflix/" className='link-projects' target="_blank">https://theus03.github.io/ultraflix/</a>
                         </div>
                         <div className="col-three">
                             <img src={myHouse} alt="MyHouse - Project" />
                             <b className='text-projects'>MyHouse</b>
-                            <a href="https://theus03.github.io/myHouse/"  className='link-projects'>https://theus03.github.io/myHouse/</a>
+                            <a href="https://theus03.github.io/myHouse/"  className='link-projects' target="_blank">https://theus03.github.io/myHouse/</a>
                         </div>
                     </div>
                 </div>

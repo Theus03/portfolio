@@ -10,19 +10,19 @@ export function UiDesign() {
                 <div className="header-projects">
                         <h1 className="title-projects">Projects</h1>
                         <div className="choose-projects">
-                            <a className="textChoose-projects" href=''>Front-End</a>
+                            <a className="textChoose-projects" href='/projects'>Front-End</a>
                             <a className="textChoose-projects" href='/projects/uidesign'>UI Design</a>
                         </div>
                     </div>
                 <div className="body-projects" id="body-projects">
                     <div className="UIDesign">
                         <div className="col-one">
-                            <img src={cfc} alt="CFC - Project" />
-                            <b className='text-projects'>CFC</b>
+                            <img src={cfc} alt="CFC - Project" className='img-project'/>
+                            <img src={cfc_logo} alt="CFC - Logo" className='logo-project' />
                         </div>
                         <div className="col-two">
-                            <img src={palace} alt="Palace - Project" />
-                            <b className='text-projects'>PalacePetz</b>
+                            <img src={palace} alt="Palace - Project" className='img-project' />
+                            <img src={palace_logo} alt="Palace - Logo" className='logo-project' />
                         </div>
                     </div>
                 </div>

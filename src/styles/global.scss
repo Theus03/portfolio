@@ -136,6 +136,41 @@
                 width: 15rem;
                 margin: 1rem;
                 margin-top: 4rem;
+                transition: 0.4s;
+            }
+
+            .col-one img:hover, .col-two img:hover, .col-three img:hover{
+                transform: translateY(-5%);
+                box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+            }
+        }
+
+        .UIDesign {
+            display: flex;
+            justify-content: center;
+
+            .col-one, .col-two{
+                position: relative;
+                display: flex;
+                flex-direction: column;
+
+                .img-project {
+                    width: 10rem;
+                    border-radius: 0.5rem;
+                    position: relative;
+                    transition: 0.4s;
+                }
+                .img-project:hover {
+                    transform: translateX(5%);
+                    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+                }
+                .logo-project {
+                    width: 4rem;
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                    transform: translateX(25%);
+                }
             }
         }
     }
