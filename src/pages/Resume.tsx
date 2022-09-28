@@ -1,5 +1,9 @@
+import curriculo  from "../assets/curriculo_2022.png"
+
 export function Resume() {
     return(
-        <h1>Resume</h1>
+        <div className="containerResume">
+            <img src={curriculo}></img>
+        </div>
     )
 }

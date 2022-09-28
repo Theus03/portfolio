@@ -172,6 +172,7 @@
                     transform: translateX(25%);
                 }
             }
+
         }
     }
     .body-skills.hidden {
@@ -179,6 +180,14 @@
     }
 }
 
+.containerResume{
+    width: 100%;
+
+    img {
+        margin: auto;
+        display: block;
+    }
+}
 #home {
     display: flex;
     flex-direction: column;
