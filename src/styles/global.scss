@@ -186,8 +186,54 @@
     img {
         margin: auto;
         display: block;
+        
     }
 }
+
+.container-contact{
+    display: flex;
+    justify-content: center;
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 40%;
+        background: var(--white-secondary);
+        padding: 50px;
+
+        .title-contact {
+            font: 700 2rem Roboto, 'sans-serif';
+            text-transform: uppercase;
+            color: var(--black-secondary);
+            margin-bottom: 1.5rem;
+        }
+
+        .box-contact {
+            display: flex;
+            align-items: center;
+            width: 80%;
+            background: #EAEEF8;
+            padding: 1rem;
+            margin: 0.5rem;
+
+            img {
+                width: 3rem;
+                margin-left: 3rem;
+                
+            }
+            
+            a {
+                font: 400 1.3rem Roboto, 'sans-serif';
+                color: #000; 
+                margin-left: 1.5rem;
+            }
+
+        }
+
+    }
+}
+
 #home {
     display: flex;
     flex-direction: column;
