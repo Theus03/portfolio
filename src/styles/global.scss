@@ -201,6 +201,9 @@
         width: 40%;
         background: var(--white-secondary);
         padding: 50px;
+        bottom: 0;
+        position: absolute;
+        border-radius: 0.5rem;
 
         .title-contact {
             font: 700 2rem Roboto, 'sans-serif';
@@ -229,6 +232,11 @@
                 margin-left: 1.5rem;
             }
 
+        }
+
+        .box-contact:hover{
+            transition: 0.5s;
+            transform: translateX(2%);
         }
 
     }
