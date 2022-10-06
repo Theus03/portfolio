@@ -7,10 +7,10 @@ export function Header() {
             <h2 className="subTitle">Front-End Software Developer</h2>
             <nav>
                 <ul>
-                    <li><a href="/skills">Skills</a></li>
-                    <li><a href="/projects">Projects</a></li>
-                    <li><a href="/resume">Resume</a></li>
-                    <li><a href="/contact">Contact</a></li>    
+                    <li><a  className="text-nav" href="/skills">Skills</a></li>
+                    <li><a  className="text-nav" href="/projects">Projects</a></li>
+                    <li><a  className="text-nav" href="/resume">Resume</a></li>
+                    <li><a  className="text-nav" href="/contact">Contact</a></li>    
                 </ul>
             </nav>
         </div>
