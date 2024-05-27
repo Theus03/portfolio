@@ -1,4 +1,4 @@
-import curriculo  from "../assets/curriculo_2022.png"
+import curriculo  from "../assets/foto-currículo-2024.png"
 
 export function Resume() {
     return(
