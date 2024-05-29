@@ -7,6 +7,7 @@ import './styles/global.scss'
 import './styles/colors.scss'
 import dark from "./themes/dark"
 import light from "./themes/light"
+import { Home } from "./pages/Home";
 
 export {dark, light};
 
