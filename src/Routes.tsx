@@ -16,7 +16,7 @@ export function AppRoutes() {
     return (
         <Router>
             <Routes>
-                <Route path="/" element={<Home/>}></Route>
+                <Route path={"/"} element={<Home/>}></Route> /* Quando subir em PROD necessário trocar para /portfolio */
                 <Route path="/skills" element={<Skills/> }></Route>
                 <Route path="/skills/editors" element={<Editors/>}></Route>
                 <Route path="/skills/design" element={<Design/>}></Route>
